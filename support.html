@@ -2,10 +2,14 @@
 <meta charset="utf-8">
 <title>Spatial Canvas 安装与反馈</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
 <h1>安装与反馈</h1>
 <h2>安装</h2>
 <p>下载 Chromium ZIP，解压后在 Edge 的 <code>edge://extensions</code> 或 Chrome 的 <code>chrome://extensions</code> 开启开发人员模式，选择“加载解压缩的扩展”，选中含 <code>manifest.json</code> 的文件夹。</p>
+<p>首次打开选择“开始记录”后，新的导航才会进入画布；“暂不记录”仍可查看和整理已有内容。点击顶部“未开始记录”可重新选择。隐私窗口和浏览器内部页面不会被记录。</p>
 <h2>升级</h2>
 <p>升级前先在扩展内导出 JSON。覆盖旧文件后点击“重新加载”，不要先卸载扩展。开发者模式安装和商店安装可能拥有不同的扩展 ID，必要时使用导出 / 导入迁移。</p>
+<p>切换商店版时：在旧扩展导出 JSON → 安装新扩展 → 导入并检查问题、节点、笔记、分组和快照 → 确认后停用旧扩展。两个扩展的本地存储不会自动共享。此版本尚未提供自动升级前备份。</p>
 <h2>反馈</h2>
-<p>请提供浏览器、扩展版本、复现步骤和是否可以稳定复现。不要在 Issue 中贴出真实网址、笔记或其他私人浏览内容。</p>
+<p>请在<a href="https://github.com/PseudoPau/spatial-canvas-releases/issues">GitHub Issue</a>提供浏览器、扩展版本、复现步骤和是否可以稳定复现。不要贴出真实网址、笔记或其他私人浏览内容，也不要上传完整 JSON 备份。</p>
+<p>当前未上架商店，没有自动更新。Safari、Firefox 暂无安装包。遇到问题时先导出备份，不要通过卸载尝试修复数据。</p>
